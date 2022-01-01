@@ -1,0 +1,65 @@
+.homeHeading2 {
+  font-family: "Montserrat", Sans-serif;
+  font-size: 4.5rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #ffffff;
+}
+.daDaa {
+  display: flex;
+  width: 100%;
+  background-color: #222222;
+}
+.bg-gray{
+  background-color: #222222;
+}
+.iimage {
+  width: 35.5rem;
+  height: 35.5rem;
+  border-radius: 20px 20px 20px 20px;
+}
+.main {
+  background-color: #222222;
+  width: 100%;
+}
+.inlineLeft {
+  background-color: #222222;
+  font-family: "Montserrat", Sans-serif;
+  text-shadow: 0px 0px 19px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: bolder;
+  box-shadow: none;
+  display: inline;
+  /* padding: 0.5rem; */
+}
+.Line {
+  color:white;
+  height: 10rem;
+}
+.inlineRight {
+  background-color: #222222;
+  font-family: "Montserrat", Sans-serif;
+  text-shadow: 0px 0px 19px rgba(0, 0, 0, 0.3);
+  color: white;
+  font-weight: bolder;
+  box-shadow: none;
+  display: inline;
+  float: inline-end;
+  /* padding: 0.5rem; */
+}
+.accContent {
+  padding: 1rem;
+  color: #ffffff;
+  /* font-family: ; */
+  font-weight: 700;
+  font-style: italic;
+  font-size: 100%;
+  text-align: left;
+}
+.FAQ-head{
+  color: white;
+  text-align: center;
+}
+.title-color{
+  color: #ffffff;
+}
