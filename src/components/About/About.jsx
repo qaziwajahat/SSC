@@ -21,7 +21,7 @@ const About = () => {
             <div className="col-md-12 ">
               <h1 className="homeHeadin">OUR SPECIAL LEGENDARY COLLECTION  </h1>
               <h6 className="text-white h4">Discover our special legendary collection, they are the rarest and unique.</h6>
-              <div className="row">
+              <div className="row justify-content-center">
                 
                   <div className="col-md card card-back pt-5" >
                     <img src={a1} className="card-img " alt="..."/>

@@ -1,0 +1,113 @@
+.roadmap-Line{
+    position: absolute;
+    /* top: 0; */
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 5px;
+    height: 100%;
+    background-color: rgb(245, 115, 5);
+    color:  rgb(245, 115, 5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: 100%;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+.roadmap-Line-last{
+    position: absolute;
+    /* top: 0; */
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 5px;
+    height: 50%;
+    background-color: rgb(245, 115, 5);
+    color:  rgb(245, 115, 5);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+.rm-percentage{
+    display: block;
+width: calc(50% - 100px);
+flex-shrink: 0;
+text-align: right;
+letter-spacing: .11em;
+font-family: "Akira";
+font-weight: bolder;
+font-size: 3.5rem;
+color: white;
+margin-top: 0;
+margin-bottom: .5rem;
+line-height: 1.2;
+}
+.road-item{
+    display: flex;
+align-items: center;
+-webkit-margin-after: 140px;
+margin-block-end: 140px;
+}
+.rmp{
+    position: absolute;
+left: 50%;
+-webkit-transform: translateX(-50%);
+transform: translateX(-50%);
+display: block;
+width: 20px;
+height: 20px;
+background: #fff;
+border-radius: 100%;
+flex-shrink: 0;
+box-shadow: 0 0 9px 9px rgba(0,0,0,.7);
+letter-spacing: 1px;
+}
+.rm-percentage-right{
+    display: block;
+    width: calc(50% - 100px);
+    flex-shrink: 0;
+    text-align: left;
+    letter-spacing: .11em;
+    font-family: "Akira";
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 0;
+    margin-bottom: .5rem;
+    line-height: 1.2;
+font-weight: bolder;
+
+}
+.rmphase{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 2.25rem;
+    color: white;
+    font-weight: bolder;
+}
+.rmtext{
+    white-space: pre-line;
+    color: white;
+    margin-top: 0;
+}
+.h4{
+    text-align: justify;
+    margin-top: 0;  
+    margin-bottom: .5rem;
+    padding-left: 150px;
+    font-weight: 500;
+}
+.h4-left{
+    /* text-align: justify; */
+    margin-top: 0;  
+    margin-bottom: .5rem;
+    padding-right: 150px;
+
+}
